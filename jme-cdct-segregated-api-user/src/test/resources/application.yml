@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: jme-cdct-segregated-provider-service
+server:
+  port: 1235
+  servlet:
+    context-path: /${spring.application.name}
+jeap:
+  security:
+    oauth2:
+      resourceserver:
+        system-name: "jme"
+

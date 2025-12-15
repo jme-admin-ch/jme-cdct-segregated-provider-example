@@ -1,0 +1,10 @@
+jeap:
+  security:
+    oauth2:
+      resourceserver:
+        authorization-server:
+          issuer: "http://localhost:8180/jme-cdct-segregated-auth-scs"
+          jwk-set-uri: "http://localhost:8180/jme-cdct-segregated-auth-scs/.well-known/jwks.json"
+  monitor:
+    prometheus:
+      password: '{noop}secret'

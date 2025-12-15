@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: jme-cdct-segregated-provider-service
+  main:
+    banner-mode: off
+server:
+  servlet:
+    context-path: /${spring.application.name}
+  port: 8080
+jeap:
+  swagger:
+    status: OPEN
+  security:
+    oauth2:
+      resourceserver:
+        system-name: "jme"

@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: "jme-cdct-segregated-auth-scs"
+server:
+  servlet:
+    context-path: /${spring.application.name}
+jeap:
+  monitor:
+    prometheus:
+      user: "prometheus"
+      password: "{noop}secret"
+oauth-mock-data:
+  clients:
+    - client-id: "jme-cdct-segregated-consumer-service"
+      client-secret: "{noop}secret"
+      context: "SYS"
+      userroles: ["jme_@task_#read", "jme_@task_#write", "jme_@user_#read", "jme_@user_#write"]

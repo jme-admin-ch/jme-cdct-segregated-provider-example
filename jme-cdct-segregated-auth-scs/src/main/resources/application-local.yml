@@ -1,0 +1,5 @@
+server:
+  port: 8180
+
+mockserver:
+  base-url: "http://localhost:${server.port}/jme-cdct-segregated-auth-scs"
