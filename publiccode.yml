@@ -1,8 +1,8 @@
 publiccodeYmlVersion: 0.4.0
 name: jme-cdct-segregated-provider-example
 applicationSuite: JME
-softwareVersion: 1.4.0
-releaseDate: 2026-03-09
+softwareVersion: 1.5.0
+releaseDate: 2026-03-11
 url: "https://github.com/jme-admin-ch/jme-cdct-segregated-provider-example.git"
 landingURL: "https://github.com/jme-admin-ch/jme"
 platforms:
