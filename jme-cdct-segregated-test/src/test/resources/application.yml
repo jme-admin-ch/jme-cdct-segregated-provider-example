@@ -1,0 +1,5 @@
+spring:
+  application:
+    name: jme-cdct-seg-provider-it
+  main:
+    banner-mode: off
