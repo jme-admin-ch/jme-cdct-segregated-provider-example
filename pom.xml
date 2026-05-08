@@ -28,13 +28,13 @@
     <parent>
         <groupId>ch.admin.bit.jeap</groupId>
         <artifactId>jeap-spring-boot-parent</artifactId>
-        <version>33.3.0</version>
+        <version>34.8.0-alpha-springboot4</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
 
     <properties>
-        <jeap-oauth-mock-server.version>3.46.0</jeap-oauth-mock-server.version>
-        <jme-spring-boot-integration-test.version>1.1.0</jme-spring-boot-integration-test.version>
+        <jeap-oauth-mock-server.version>4.0.1-alpha-springboot4</jeap-oauth-mock-server.version>
+        <jme-spring-boot-integration-test.version>3.0.0</jme-spring-boot-integration-test.version>
         <java.version>25</java.version>
         <maven.compiler.release>25</maven.compiler.release>
         <maven.javadoc.skip>false</maven.javadoc.skip>
