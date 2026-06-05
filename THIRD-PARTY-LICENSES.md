@@ -35,7 +35,6 @@ Apache License Version 2.0
  * Jackson datatype: JSR310 - [com.fasterxml.jackson.datatype:jackson-datatype-jsr310](https://github.com/FasterXML/jackson-modules-java8/jackson-datatype-jsr310)
  * colormath - [com.github.ajalt:colormath](https://github.com/ajalt/colormath)
  * mordant - [com.github.ajalt:mordant](https://github.com/ajalt/mordant)
- * Generex - [com.github.mifmif:generex](https://github.com/mifmif/Generex/tree/master)
  * JCIP Annotations under Apache License - [com.github.stephenc.jcip:jcip-annotations](http://stephenc.github.com/jcip-annotations)
  * Google Android Annotations Library - [com.google.android:annotations](http://source.android.com/)
  * proto-google-common-protos - [com.google.api.grpc:proto-google-common-protos](https://github.com/googleapis/sdk-platform-java)
@@ -161,11 +160,10 @@ Apache License Version 2.0
  * IntelliJ IDEA Annotations - [org.jetbrains:annotations](http://www.jetbrains.org)
  * Kotlin Reflect - [org.jetbrains.kotlin:kotlin-reflect](https://kotlinlang.org/)
  * Kotlin Stdlib - [org.jetbrains.kotlin:kotlin-stdlib](https://kotlinlang.org/)
- * Kotlin Stdlib Common - [org.jetbrains.kotlin:kotlin-stdlib-common](https://kotlinlang.org/)
- * Kotlin Stdlib Jdk7 - [org.jetbrains.kotlin:kotlin-stdlib-jdk7](https://kotlinlang.org/)
- * Kotlin Stdlib Jdk8 - [org.jetbrains.kotlin:kotlin-stdlib-jdk8](https://kotlinlang.org/)
  * kotlinx-coroutines-core - [org.jetbrains.kotlinx:kotlinx-coroutines-core-jvm](https://github.com/Kotlin/kotlinx.coroutines)
- * kotlinx-coroutines-jdk8 - [org.jetbrains.kotlinx:kotlinx-coroutines-jdk8](https://github.com/Kotlin/kotlinx.coroutines)
+ * kotlinx-io-bytestring - [org.jetbrains.kotlinx:kotlinx-io-bytestring-jvm](https://github.com/Kotlin/kotlinx-io)
+ * kotlinx-io-core - [org.jetbrains.kotlinx:kotlinx-io-core-jvm](https://github.com/Kotlin/kotlinx-io)
+ * kotlinx-serialization-core - [org.jetbrains.kotlinx:kotlinx-serialization-core-jvm](https://github.com/Kotlin/kotlinx.serialization)
  * JSpecify annotations - [org.jspecify:jspecify](http://jspecify.org/)
  * Objenesis - [org.objenesis:objenesis](http://objenesis.org/objenesis)
  * org.opentest4j:opentest4j - [org.opentest4j:opentest4j](https://github.com/ota4j-team/opentest4j)
@@ -247,11 +245,6 @@ Apache License Version 2.0
  * Jackson-core - [tools.jackson.core:jackson-core](https://github.com/FasterXML/jackson-core)
  * jackson-databind - [tools.jackson.core:jackson-databind](https://github.com/FasterXML/jackson)
 
-BSD
--------------------------------
-
- * Automaton - [dk.brics.automaton:automaton](http://www.brics.dk/automaton/)
-
 BSD 2-Clause License
 -------------------------------
 
@@ -332,11 +325,6 @@ GPLv2+CE
 -------------------------------
 
  * JavaMail API (compat) - [javax.mail:mail](http://kenai.com/projects/javamail/mail)
-
-ISC License
--------------------------------
-
- * kotlin-result - [com.michael-bull.kotlin-result:kotlin-result-jvm](https://github.com/michaelbull/kotlin-result)
 
 MIT License
 -------------------------------
