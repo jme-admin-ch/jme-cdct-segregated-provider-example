@@ -24,6 +24,7 @@ Apache License Version 2.0
  * ch.admin.bit.jeap:jeap-spring-boot-security-starter-test - [ch.admin.bit.jeap:jeap-spring-boot-security-starter-test](https://github.com/jeap-admin-ch/jeap-spring-boot-starters/tree/main/jeap-spring-boot-security-starter-test)
  * ch.admin.bit.jeap:jeap-spring-boot-swagger - [ch.admin.bit.jeap:jeap-spring-boot-swagger](https://github.com/jeap-admin-ch/jeap-spring-boot-starters/tree/main/jeap-spring-boot-swagger)
  * ch.admin.bit.jeap:jeap-spring-boot-swagger-starter - [ch.admin.bit.jeap:jeap-spring-boot-swagger-starter](https://github.com/jeap-admin-ch/jeap-spring-boot-starters/tree/main/jeap-spring-boot-swagger-starter)
+ * ch.admin.bit.jeap:jeap-spring-boot-web-config-starter - [ch.admin.bit.jeap:jeap-spring-boot-web-config-starter](https://github.com/jeap-admin-ch/jeap-spring-boot-starters/tree/main/jeap-spring-boot-web-config-starter)
  * jme-cdct-segregated-api-task - [ch.admin.bit.jeap:jme-cdct-segregated-api-task](https://github.com/jme-admin-ch/jme-cdct-segregated-provider-example/tree/main/jme-cdct-segregated-api-task)
  * jme-cdct-segregated-api-user - [ch.admin.bit.jeap:jme-cdct-segregated-api-user](https://github.com/jme-admin-ch/jme-cdct-segregated-provider-example/tree/main/jme-cdct-segregated-api-user)
  * ch.admin.bit.jeap.jme:jme-spring-boot-integration-test - [ch.admin.bit.jeap.jme:jme-spring-boot-integration-test](https://github.com/jme-admin-ch/jme-integration-test/tree/main/jme-spring-boot-integration-test)
