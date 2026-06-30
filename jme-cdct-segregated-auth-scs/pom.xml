@@ -24,6 +24,14 @@
         </dependency>
     </dependencies>
 
+    <properties>
+        <!-- This module has no Java sources of its own (its main class comes from the
+             jeap-oauth-mock-server dependency), so the standard Javadoc generation has
+             nothing to document and would fail. Skip it and attach an empty Javadoc jar
+             below instead, which is required for publishing to Maven Central. -->
+        <maven.javadoc.skip>true</maven.javadoc.skip>
+    </properties>
+
     <build>
         <plugins>
             <plugin>
@@ -32,6 +40,26 @@
                 <configuration>
                     <mainClass>ch.admin.bit.jeap.oauth.mock.server.ServerApplication</mainClass>
                 </configuration>
+            </plugin>
+            <!-- Force an (empty) Javadoc jar to be attached: this module has no Java
+                 sources to document, but Maven Central requires a Javadoc artifact. -->
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-jar-plugin</artifactId>
+                <executions>
+                    <execution>
+                        <id>empty-javadoc-jar</id>
+                        <phase>package</phase>
+                        <goals>
+                            <goal>jar</goal>
+                        </goals>
+                        <configuration>
+                            <classifier>javadoc</classifier>
+                            <classesDirectory>${project.build.directory}/empty-javadoc</classesDirectory>
+                            <forceCreation>true</forceCreation>
+                        </configuration>
+                    </execution>
+                </executions>
             </plugin>
         </plugins>
     </build>
