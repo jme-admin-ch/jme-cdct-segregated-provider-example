@@ -28,6 +28,8 @@ Apache License Version 2.0
  * jme-cdct-segregated-api-task - [ch.admin.bit.jeap:jme-cdct-segregated-api-task](https://github.com/jme-admin-ch/jme-cdct-segregated-provider-example/tree/main/jme-cdct-segregated-api-task)
  * jme-cdct-segregated-api-user - [ch.admin.bit.jeap:jme-cdct-segregated-api-user](https://github.com/jme-admin-ch/jme-cdct-segregated-provider-example/tree/main/jme-cdct-segregated-api-user)
  * ch.admin.bit.jeap.jme:jme-spring-boot-integration-test - [ch.admin.bit.jeap.jme:jme-spring-boot-integration-test](https://github.com/jme-admin-ch/jme-integration-test/tree/main/jme-spring-boot-integration-test)
+ * libGDX jnigen library - [com.badlogicgames.jnigen:jnigen-commons](https://github.com/libgdx/gdx-jnigen)
+ * libGDX jnigen library - [com.badlogicgames.jnigen:jnigen-loader](https://github.com/libgdx/gdx-jnigen)
  * ClassMate - [com.fasterxml:classmate](https://github.com/FasterXML/java-classmate)
  * Jackson-annotations - [com.fasterxml.jackson.core:jackson-annotations](https://github.com/FasterXML/jackson)
  * Jackson-core - [com.fasterxml.jackson.core:jackson-core](https://github.com/FasterXML/jackson-core)
@@ -347,6 +349,9 @@ MIT License
  * JUL to SLF4J bridge - [org.slf4j:jul-to-slf4j](http://www.slf4j.org)
  * SLF4J API Module - [org.slf4j:slf4j-api](http://www.slf4j.org)
  * webjars-locator-lite - [org.webjars:webjars-locator-lite](https://webjars.org)
+ * Lua 5.4 - [party.iroiro.luajava:lua54](https://github.com/gudzpoz/luajava)
+ * Lua 5.4 - [party.iroiro.luajava:lua54-platform](https://github.com/gudzpoz/luajava)
+ * LuaJava - [party.iroiro.luajava:luajava](https://github.com/gudzpoz/luajava)
 
 Public Domain
 -------------------------------
