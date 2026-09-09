@@ -38,6 +38,7 @@ Apache License Version 2.0
  * Jackson datatype: JSR310 - [com.fasterxml.jackson.datatype:jackson-datatype-jsr310](https://github.com/FasterXML/jackson-modules-java8/jackson-datatype-jsr310)
  * colormath - [com.github.ajalt:colormath](https://github.com/ajalt/colormath)
  * mordant - [com.github.ajalt:mordant](https://github.com/ajalt/mordant)
+ * Caffeine cache - [com.github.ben-manes.caffeine:caffeine](https://github.com/ben-manes/caffeine)
  * JCIP Annotations under Apache License - [com.github.stephenc.jcip:jcip-annotations](http://stephenc.github.com/jcip-annotations)
  * Google Android Annotations Library - [com.google.android:annotations](http://source.android.com/)
  * proto-google-common-protos - [com.google.api.grpc:proto-google-common-protos](https://github.com/googleapis/sdk-platform-java)
